@@ -1,6 +1,6 @@
 # Static Web Group Project
 
-As a team, build the web site for a fictitious product company. The team gets to decide what the name of the company is, and what types of products it manufactures. Be creative and have fun.
+[x]As a team, build the web site for a fictitious product company. The team gets to decide what the name of the company is, and what types of products it manufactures. Be creative and have fun.
 
 ## Requirements
 
@@ -8,14 +8,19 @@ As a team, build the web site for a fictitious product company. The team gets to
 
 Pick a theme that the team likes. A good place for inspiration is the [Wordpress themes](https://wordpress.org/themes/) site. Do not purchase, or copy the theme code, just browse them for inspiration. Everyone should agree on a theme and ensure that each page is consistent with the colors, fonts, and/or images chosen.
 
+	-Tan text
+	-Red header/logo/nav bar
+	-Dark blue borders
+
 ### Pages
 Each team member is going to be responsible for the content of a different page, so decide on the name and content for each of those pages. Some possible options are...
 
-1. Home page
-1. Company history
-1. Company culture/mission
-1. Job listings
-1. Company awards
+1.Home (Dre)
+2.Products (all)
+3.Careers (John)
+4.Employees (all)
+5.Events (David)
+6.Testimonial (Robbie)  
 
 Regardless of what pages each team member works on, each team must have a Products page and an Employee page for their site that the team will collaborate on. See more details about the product page below.
 
