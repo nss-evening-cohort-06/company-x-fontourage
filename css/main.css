@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+	color: #E2E8D6;
+}
+
+a:hover {
+	color: #A4A89B;
+}
+
+li {
+	display: inline;
+}
+
+#navBar {
+	display: flex;
+	justify-content: space-around;
+	background-color: #C23B30;
+
+}
+
+#navLinks {
+	list-style: none;
+	color: #E2E8D6;	
+	
+}
+
+#mainLogo {
+	padding: 1.5em;
+	
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #C23B30;
+}
