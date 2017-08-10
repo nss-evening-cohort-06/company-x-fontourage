@@ -1,0 +1,10 @@
+#main-events {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.event {
+	background-color: #e2e8d6;
+	padding: 5px 20px;
+	margin: 20px 0; 
+}
