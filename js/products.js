@@ -77,12 +77,6 @@ broProductArray.push(product9);
 
 var broProductContainer = document.getElementById("broproduct-container");
 
-// for (var i = 0; i < broProductArray.length; i++) {
-// 	var currentBroProduct = broProductArray[i];
-// 	var broDomString = johnsBuildDomStringFunction(currentBroProduct);
-// 	broProductContainer.innerHTML += broDomString;
-// }
-
 // David wrote this function to print products to page. 
 function printBroProductArrayToDom(array) {
  	for ( var i = 0; i < array.length; i++ ) {
@@ -108,9 +102,5 @@ function johnsBuildDomStringFunction(currentBroProduct) {
  		johnsDomString +=		'</section>';
  		return johnsDomString;
 }
-
-
-
-
 
 printBroProductArrayToDom(broProductArray);
