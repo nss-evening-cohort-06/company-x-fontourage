@@ -1,0 +1,18 @@
+
+h2 {
+	text-decoration: underline;
+}
+
+#testimonyContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.testimony {
+	margin: 1em;
+	border: 1px solid #0C1726;
+	text-align: center;	
+}
+.description {
+	padding: 0 1em;
+}

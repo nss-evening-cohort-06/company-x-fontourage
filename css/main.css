@@ -39,3 +39,6 @@ li {
 	justify-content: space-around;
 	background-color: #C23B30;
 }
+#footer ul {
+	padding-left: 0;
+}
