@@ -30,3 +30,10 @@ testimonyArray.push(testimony1);
 testimonyArray.push(testimony2);
 testimonyArray.push(testimony3);
 testimonyArray.push(testimony4);
+
+function printBroTestimonyArrayToDom(broTestimonyArray) {
+	for ( var i = 0; i < broProductArray.length; i++ ) {
+	var currentBroTestimony = broTestimonyArray[i];
+	var broTestimonyDomString = robsDomStringFunction(currentBroTestimony);
+	robsDomStringFunction.innerHTML += broTestimonyDomString;
+	}
