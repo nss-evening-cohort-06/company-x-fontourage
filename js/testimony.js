@@ -32,6 +32,7 @@ testimonyArray.push(testimony2);
 testimonyArray.push(testimony3);
 testimonyArray.push(testimony4);
 
+
 let testimonyContainer = document.getElementById("testimonyContainer");
 
 function buildTestimonyPage(testimony) {
@@ -61,4 +62,5 @@ function printTestimonyArrayToDom(testimonyArray){
 };
 
 printTestimonyArrayToDom(testimonyArray);
+
 
