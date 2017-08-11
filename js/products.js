@@ -64,3 +64,15 @@ let product9 = {
 	description: "Show the world just what type of person you are with a nice flesh colored pair of Truck Nuts. While supplies last.",
 	rating: "10/10"
 };
+
+
+
+// David wrote this function to print products to page. 
+// John, please replace "johnsDomStringFunction" with whatever your function name is for the dom string.
+function printBroProductArrayToDom(broProductArray) {
+	for ( var i = 0; i < broProductArray.length; i++ ) {
+	var currentBroProduct = broProductArray[i];
+	var broProductDomString = johnsDomStringFunction(currentBroProduct);
+	johnsDomStringFunction.innerHTML += broProductDomString;
+	}
+}
