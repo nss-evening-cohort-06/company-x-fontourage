@@ -21,7 +21,7 @@ let testimony3 = {
 let testimony4 = {
 	author: "Nabroleon Bronaparte",
 	product: "Truck Nuts",
-	testimony: "You have all heard the term, "Nabrolean Syndrome", right?  Well, I am a little man...like a very little man.  I purchased one of these in every possible color.  They have several uses both at home and away, muhahahaha!  I even hung a set from my horse.  Why you say.  Because I can.  I am Nabrolean!",
+	testimony: "You have all heard the term, 'Nabrolean Syndrome', right?  Well, I am a little man...like a very little man.  I purchased one of these in every possible color.  They have several uses both at home and away, muhahahaha!  I even hung a set from my horse.  Why you say.  Because I can.  I am Nabrolean!",
 	rating: "A BIG 10/10"
 }
 
