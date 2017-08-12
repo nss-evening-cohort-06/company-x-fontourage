@@ -4,25 +4,29 @@ let testimony1 = {
 	author: "Angelina Brolie",
 	product: "Shape-ups", 
 	testimony: "&quot;Shape-up shoes are so ugly they are cute. Get fit without stepping foot in a gym.  They really have toned my butt and legs just like they claim, all while reducing cellulite. Don't wait for a clinical trial because there is no plan for one.  I just had to try them and I fell in love with walking all over again.  They have turned walking into a carnival ride!&quot;",
-	rating: "10/10"
+	rating: "10/10",
+	img: "img/angelina.jpg"
 };
 let testimony2 = {
 	author: "Broney Hawk",
 	product: "Hoverbro", 
 	testimony: "&quot;So.... Four wheels suck.  I learned how bad four wheels were once I tried the Hoverbro!!  Why are you still reading this?  Go buy one!  Go!&quot;",
-	rating: "12/10"
+	rating: "12/10",
+	img: "img/tony.jpg"
 };
 let testimony3 = {
 	author: "Fidel Castbro",
 	product: "Vapeinator Vape Pen",
 	testimony: "&quot;Hola Broney.  Mi Vapeinator Vape Pen es muy magnificio!  Me gusta mi pluma mucho mas que mis puros cubanos.  Mi criado prefiere la suave niebla sobre mi nocivo humo de tabaco.&quot;",
-	rating: "9.5/10"
+	rating: "9.5/10",
+	img: "img/fidel.jpg"
 };
 let testimony4 = {
 	author: "Nabroleon Bronaparte",
 	product: "Truck Nuts",
-	testimony: "&quot;You have all heard the term, &quot;Nabrolean Syndrome&quot;, right?  Well, I am a little man...like a very little man.  I purchased one of these in every possible color.  They have several uses both at home and away, muhahahaha!  I even hung a set from my horse.  Why you say.  Because I can.  I am Nabrolean!&quot;",
-	rating: "A BIG 10/10"
+	testimony: "&quot;You have all heard the term, &quot;Nabroleon Syndrome&quot;, right?  Well, I am a little man...like a very little man.  I purchased one of these in every possible color.  They have several uses both at home and away, muhahahaha!  I even hung a set from my horse.  Why you say.  Because I can.  I am Nabrolean!&quot;",
+	rating: "A BIG 10/10",
+	img: "img/napoleon.jpg"
 };
 
 console.log(testimonyArray)
@@ -41,10 +45,13 @@ function buildTestimonyPage(testimony) {
   	testimonyCard +=      '<div class="title">';
     testimonyCard +=         '<h2>' + testimony.author + '</h2>';
   	testimonyCard +=      '</div>';
-  	testimonyCard +=        '<div class="description">';
+  	testimonyCard +=      '<div class="description">';
   	testimonyCard +=          '<p>' + testimony.testimony + '</p>';
   	testimonyCard +=          '<h6>' + testimony.rating + '</h6>';
   	testimonyCard +=      '</div>';
+  	testimonyCard +=	  '<div>';
+  	testimonyCard +=          '<img src="' + testimony.img + '">';
+  	testimonyCard +=      '</div>'
   	testimonyCard +=      '</section>';
 
   	return testimonyCard;
