@@ -11,19 +11,19 @@ let employee2 = {
 	name: "David",
 	title: "Broseidon",
 	img:"https://pbs.twimg.com/profile_images/683645355/Broseidon_400x400.jpg",
-	bio:
+	bio: ""
 };
 let employee3 = {
 	name: "John",
 	title: "Broforce One",
 	img: "http://static5.businessinsider.com/image/4e7c9ce8ecad04c93f000037/the-itunes-terms-of-service-has-been-translated-into-bro-speak.jpg",
-	bio:
+	bio: ""
 };
 let employee4 = {
 	name: "Robbie",
 	title: "Brotein Shake",
 	img: "https://2static2.fjcdn.com/comments/Am+i+doing+this+right+_48691e58836149602066af4d322cf400.png",
-	bio:
+	bio: ""
 };
 let employee5 = {
 	name: "Brodo",
@@ -35,3 +35,34 @@ let employee5 = {
 employeeArray.push(employee1);
 employeeArray.push(employee2);
 employeeArray.push(employee3);
+
+var employeeContainer = document.getElementById("employee-container");
+
+function printEmployeesToDom(array) {
+ 	for ( var i = 0; i < array.length; i++ ) {
+ 		var employee = array[i];
+ 		var employeeDomString = buildEmployeeDomString(employee);
+ 	employeeContainer.innerHTML += employeeDomString;
+}
+}
+
+function buildEmployeeDomString(employee) {
+  var johnsDomString = "";
+ 		johnsDomString += '<section class="employee">';
+ 		johnsDomString += 	'<div class="employee-pic">';
+ 		johnsDomString += 		'<img src="' + employee.img + '">';
+ 		johnsDomString += 	'</div>';
+ 		johnsDomString += 	'<div class="employee-name">';
+ 		johnsDomString += 		'<h2>' + employee.name + '</h2>';
+ 		johnsDomString +=		'</div>';
+ 		johnsDomString += 	'<div class="employee-title">'
+ 		johnsDomString += 		'<h4>' + employee.title + '</h4>';
+ 		johnsDomString +=		'</div>';
+ 		johnsDomString += 	'<div class="employee-bio">'
+ 		johnsDomString +=			'<p>' + employee.bio + '</p>';
+ 		johnsDomString += 	'</div>';
+ 		johnsDomString +=		'</section>';
+ 		return johnsDomString;
+}
+
+printEmployeesToDom(employeeArray);
