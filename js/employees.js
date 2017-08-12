@@ -26,19 +26,6 @@ employeeArray.push(employee3);
 
 var employeeContainer = document.getElementById("employee-container");
 
-let employee4 = {
-	name: "Robbie",
-	title: "Brotein Shake",
-	img: "https://2static2.fjcdn.com/comments/Am+i+doing+this+right+_48691e58836149602066af4d322cf400.png",
-	bio: "Brotein Shake will mix you up and drink you whole. Made in America."
-};
-let employee5 = {
-	name: "Brodo",
-	title: "Ring Bearer and Bling Wearer",
-	img: "https://68.media.tumblr.com/tumblr_m0m16f0rQU1qij2epo1_500.jpg",
-	bio: "IDK, he was the first person to apply. Keeps talking about some ring, it's annoying af."
-};
-
 function addEmployee(name, title, img, bio) {
 	let newEmployee = {};
 	newEmployee.name = name; 
