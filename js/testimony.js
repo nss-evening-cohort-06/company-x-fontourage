@@ -19,7 +19,7 @@ let testimony3 = {
 	product: "Vapeinator Vape Pen",
 	testimony: "&quot;Hola Broney.  Mi Vapeinator Vape Pen es muy magnificio!  Me gusta mi pluma mucho mas que mis puros cubanos.  Mi criado prefiere la suave niebla sobre mi nocivo humo de tabaco.&quot;",
 	rating: "9.5/10",
-	img: "img/fidel.jpg"
+	img: "img/fidel2.jpg"
 };
 let testimony4 = {
 	author: "Nabroleon Bronaparte",
