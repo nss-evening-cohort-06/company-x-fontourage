@@ -1,4 +1,9 @@
 
+#mainLogo {
+  padding: 1.5em;
+  margin-top: -103px;
+}
+
 h1 {
 	text-align: center;
 	text-shadow: 2px 2px 3px #0c1726;
