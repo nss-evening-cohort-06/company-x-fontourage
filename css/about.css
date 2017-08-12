@@ -15,11 +15,12 @@ h2 {
 }
 
 #bromotionCardContainer {
+	align-content: center;
 	background-color: #e2e8d6;
 	padding: 15px 20px;
 	margin: 0 auto;
 	margin-bottom: 15px;
-	width: 50%;
+	width: 30%;
 }
 
 #bromotionCard {
@@ -29,7 +30,7 @@ h2 {
 	border: 3px solid #0C1726;
 }
 #bromotionCard img {
-	width: 50%;
+	width: 100%;
 }
 
 #productsButton {
