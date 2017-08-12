@@ -16,8 +16,13 @@ h2 {
 
 .testimony {
 	margin: 1em;
-	border: 1px solid #0C1726;
 	text-align: center;	
+	background-color: #e2e8d6;
+	padding: 15px 20px;
+	
+	width: 25%;
+	border: 3px solid #0C1726;
+}
 }
 .description {
 	padding: 0 1em;

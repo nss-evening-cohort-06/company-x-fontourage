@@ -25,10 +25,13 @@ h1 {
 }
 .productname {
 	text-align: center;
+	font-family: "Trebuchet MS";
 }
 .productdescription {
 	text-align: center;
 }
 
-
-
+.productprice {
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
