@@ -7,6 +7,10 @@ h1 {
 
 h2 {
 	text-decoration: underline;
+	}
+main h2 {
+	text-align: center;
+	text-decoration: none;
 }
 
 #testimonyContainer {
@@ -18,8 +22,7 @@ h2 {
 	margin: 1em;
 	text-align: center;	
 	background-color: #e2e8d6;
-	padding: 15px 20px;
-	
+	padding: 15px 20px;	
 	width: 25%;
 	border: 3px solid #0C1726;
 }
