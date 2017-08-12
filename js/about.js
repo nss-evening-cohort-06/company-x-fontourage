@@ -28,3 +28,4 @@ function productsLink() {
 
 bromotionCardHTML.innerHTML = printBromotionCardToDom();
 productsButton.addEventListener('click', function() {productsLink()})
+
