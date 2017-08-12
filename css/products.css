@@ -49,11 +49,10 @@ h3 {
 	text-align: center;
 }
 
-@keyframes spinner {
-  100% {
-    transform: rotate(3600deg);
-  }
-}
+
+
+
+
 
 .loading-container {
   margin: 0 auto;
@@ -62,16 +61,11 @@ h3 {
   top: 50vh;
   transform: translateY(-50%);
 }
-
-
-
-
 @keyframes spinner {
   100% {
     transform: rotate(3600deg);
   }
 }
-
 .loading-container_a {
   margin: 0 auto;
   text-align: right;
@@ -79,7 +73,6 @@ h3 {
   top: 50vh;
   transform: translateY(-50%);
 }
-
 .loading-container_b {
   margin: 0 auto;
   text-align: right;
@@ -87,7 +80,6 @@ h3 {
   top: 50vh;
   transform: translateY(-50%);
 }
-
 .spinner {
   display: inline-block;
   width: 100px;
@@ -97,16 +89,6 @@ h3 {
   transition-origin: 50% 50%;
   animation: spinner 3s infinite alternate ease-in-out;
 }
-.spinner-center {
-  display: inline-block;
-  position: absolute;
-  margin-left: -100px;
-  width: 100px;
-  height: 100px;
-  background: url('http://i.imgur.com/u0BC2ZR.png') center center;
-  background-size: contain;
-  content: '';
-}
 
 .loading-text {
   position: relative;
@@ -115,5 +97,3 @@ h3 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   margin-left: 0.5em;
 }
-
-
