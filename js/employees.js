@@ -5,19 +5,19 @@ let employee1 = {
 	name: "Dre",
 	title: "Coffee Broaster",
 	img: "https://technical.ly/baltimore/wp-content/uploads/sites/3/2013/11/EdgarAllanBro.jpg",
-	bio: ""
+	bio: "The man, the myth, the bro. From his early days of working at Starbucks, to his now full time job as CEO and founder of The Brocery Store, he's the one that started it all."
 };
 let employee2 = {
 	name: "David",
 	title: "Broseidon",
 	img:"https://pbs.twimg.com/profile_images/683645355/Broseidon_400x400.jpg",
-	bio: ""
+	bio: "When David isn't busy being King of The Seas, he's King of The Bros. Some speculate that at the end of his trident, it's not 3 spikes, but just a giant fidget spinner."
 };
 let employee3 = {
 	name: "John",
 	title: "Broforce One",
 	img: "http://static5.businessinsider.com/image/4e7c9ce8ecad04c93f000037/the-itunes-terms-of-service-has-been-translated-into-bro-speak.jpg",
-	bio: ""
+	bio: "John is an OG Bro. He was listening to Fred Durst before he got together with the rest of those guys and formed Limp Bizkit."
 };
 
 employeeArray.push(employee1);
