@@ -1,12 +1,20 @@
+
+
 #openPositions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	width: 90%;
-	margin: 0px auto;
+	margin: 0 auto;
 }
 
-.careers {
+.career {
+	width: 60%;
 	background-color: #e2e8d6;
 	padding: 5px 20px;
 	margin: 20px 0; 
+	text-align: center;
+	border: 3px solid black;
 }
 
 .giveUsYourInfo {
@@ -21,4 +29,12 @@ h1 {
 	text-align: center;
 	text-shadow: 2px 2px 3px #0c1726;
 	color: #c23b30;
+}
+
+.career-title {
+	font-family: "Trebuchet MS";
+}
+
+.career-salary {
+	font-family: "Comic Sans MS";
 }
