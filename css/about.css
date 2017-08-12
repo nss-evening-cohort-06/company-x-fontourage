@@ -1,0 +1,14 @@
+main {
+	width: 90%;
+	margin: 0px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#bromotionCardContainer {
+	background-color: #e2e8d6;
+	padding: 15px 20px;
+	margin: 20px 0;
+}
