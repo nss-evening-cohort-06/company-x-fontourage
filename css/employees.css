@@ -1,0 +1,25 @@
+#employee-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.employee {
+	width: 400px;
+	border: 2px solid #0c1726;
+	margin: 1%;
+}
+
+.employee-pic img {
+	max-width: 100%;
+	border-top:  1px solid gray;
+	border-bottom:  1px solid gray;
+}
+
+.employee-name, .employee-title {
+	text-align: center;
+}
+
+.employee-title {
+	color: #C23B30;
+}
