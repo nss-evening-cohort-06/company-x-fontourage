@@ -25,3 +25,8 @@
 .employee-title {
 	color: #C23B30;
 }
+
+.employee-bio {
+	margin: 0px auto;
+	width: 90%;
+}
