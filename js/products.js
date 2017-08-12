@@ -93,13 +93,13 @@ function johnsBuildDomStringFunction(currentBroProduct) {
  		johnsDomString += 		'<img src="' + currentBroProduct.img + '">';
  		johnsDomString += 	'</div>';
  		johnsDomString += 	'<div class="productname">';
- 		johnsDomString += 		'<h1>' + currentBroProduct.name + '</h1>';
+ 		johnsDomString += 		'<h2>' + currentBroProduct.name + '</h2>';
  		johnsDomString +=		'</div>';
  		johnsDomString += 	'<div class="productdescription">'
  		johnsDomString += 		'<p>' + currentBroProduct.description + '</p>';
  		johnsDomString += 	'</div>'
  		johnsDomString +=		'<div class="productprice">'
- 		johnsDomString +=			'<h2>' + currentBroProduct.price + '</h2>';
+ 		johnsDomString +=			'<h3>' + currentBroProduct.price + '</h3>';
  		johnsDomString += 	'</div>';
  		johnsDomString +=		'</section>';
  		return johnsDomString;
