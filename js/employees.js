@@ -19,18 +19,6 @@ let employee3 = {
 	img: "http://static5.businessinsider.com/image/4e7c9ce8ecad04c93f000037/the-itunes-terms-of-service-has-been-translated-into-bro-speak.jpg",
 	bio: ""
 };
-let employee4 = {
-	name: "Robbie",
-	title: "Brotein Shake",
-	img: "https://2static2.fjcdn.com/comments/Am+i+doing+this+right+_48691e58836149602066af4d322cf400.png",
-	bio: ""
-};
-let employee5 = {
-	name: "Brodo",
-	title: "Squid",
-	img: "https://68.media.tumblr.com/tumblr_m0m16f0rQU1qij2epo1_500.jpg",
-	bio: "IDK, he was the first person to apply. Keeps talking about some ring, it's annoying af."
-};
 
 employeeArray.push(employee1);
 employeeArray.push(employee2);
@@ -38,13 +26,25 @@ employeeArray.push(employee3);
 
 var employeeContainer = document.getElementById("employee-container");
 
+function addEmployee(name, title, img, bio) {
+	let newEmployee = {};
+	newEmployee.name = name; 
+	newEmployee.title = title;  
+	newEmployee.img = img;
+	newEmployee.bio = bio; 
+	employeeArray.push(newEmployee);
+};
+
+addEmployee("Robbie", "Brotein Shake", "https://2static2.fjcdn.com/comments/Am+i+doing+this+right+_48691e58836149602066af4d322cf400.png", "Brotein Shake will mix you up and drink you whole. Made in America.");
+addEmployee("Brodo", "Ring Bearer and Bling Wearer", "https://68.media.tumblr.com/tumblr_m0m16f0rQU1qij2epo1_500.jpg", "IDK, he was the first person to apply. Keeps talking about some ring, it's annoying af.");
+
 function printEmployeesToDom(array) {
  	for ( var i = 0; i < array.length; i++ ) {
  		var employee = array[i];
  		var employeeDomString = buildEmployeeDomString(employee);
  	employeeContainer.innerHTML += employeeDomString;
-}
-}
+	};
+};
 
 function buildEmployeeDomString(employee) {
   var johnsDomString = "";
@@ -63,7 +63,7 @@ function buildEmployeeDomString(employee) {
  		johnsDomString += 	'</div>';
  		johnsDomString +=		'</section>';
  		return johnsDomString;
-}
+};
 
 printEmployeesToDom(employeeArray);
 
@@ -76,6 +76,9 @@ printEmployeesToDom(employeeArray);
 // - [ ] Call the createEmployee function twice, adding 2 more unique employees.
 // - [ ] Loop through the array of employees and print them to the page. 
 // - [ ] The layout of the employee page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
+
+
+
 
 
 
