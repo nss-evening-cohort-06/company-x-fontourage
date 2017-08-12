@@ -13,11 +13,13 @@ let productsButton = document.querySelector('#productsButton');
 
 function printBromotionCardToDom() {
 	let cardString = "";
+	cardString += '<div class="homeCardBromotion">';
 	cardString += '<img src="' + bromotionCardObject.img + '"</img>';
 	cardString += '<h2>' + bromotionCardObject.name + '</h2>';
 	cardString += '<p>' + bromotionCardObject.description + '</p>';
 	cardString += '<h4>' + bromotionCardObject.price + '</h4>';
 	cardString += '<h5>' + bromotionCardObject.rating + '</h5>';
+	cardString += '</div>';
 
 	return cardString;
 };
@@ -28,3 +30,4 @@ function productsLink() {
 
 bromotionCardHTML.innerHTML = printBromotionCardToDom();
 productsButton.addEventListener('click', function() {productsLink()})
+

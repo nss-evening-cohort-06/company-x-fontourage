@@ -1,0 +1,31 @@
+
+h1 {
+	text-align: center;
+}
+
+#broproduct-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.product {
+	background-color: #e2e8d6;
+	padding: 15px 20px;
+	margin: 20px 2px;
+	width: 25%;
+	/*height: 1%;*/
+	border: 3px solid #0C1726;
+}
+.productimage img {
+	width: 100%;
+}
+.productname {
+	text-align: center;
+}
+.productdescription {
+	text-align: center;
+}
+
+
+
