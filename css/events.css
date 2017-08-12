@@ -9,6 +9,9 @@ h1 {
 	width: 90%;
 	margin: 0px auto;
 }
+h2 {
+	text-align: center;
+}
 
 .event {
 	background-color: #e2e8d6;
