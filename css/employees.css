@@ -2,6 +2,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	width: 90%;
+	margin: 0 auto; 
 }
 
 .employee {
@@ -22,4 +24,9 @@
 
 .employee-title {
 	color: #C23B30;
+}
+
+.employee-bio {
+	margin: 0px auto;
+	width: 90%;
 }
